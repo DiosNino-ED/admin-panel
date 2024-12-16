@@ -11,7 +11,7 @@ const AuthProvider = ({children}: PropsType) => {
     <SessionProvider>
       {children}
     </SessionProvider>
-  )
-}
+  );
+};
 
-export default AuthProvider
+export default AuthProvider;
