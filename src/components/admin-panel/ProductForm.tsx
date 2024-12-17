@@ -71,6 +71,42 @@ const ProductForm = () => {
                 console.log(`ERROR! ${error}`);
             }}
         />
+
+        <div>
+            <label className='block ml-1'>Product Name</label>
+            <input 
+            className='bg-gray-300 w-full px-4 py-2 border outline-blue-500 rounded-md'
+            type='text'
+            value={payLoad.name}
+            onChange={(e) => setPayLoad({...payLoad, name: e.target.value})} 
+            required
+            />
+        </div>
+        <div>
+            <label className='block ml-1'>Product Category</label>
+            <input 
+            className='bg-gray-300 w-full px-4 py-2 border outline-blue-500 rounded-md'
+            type='text'
+            value={payLoad.category}
+            onChange={(e) => setPayLoad({...payLoad, category: e.target.value})} 
+            required
+            />
+        </div>
+        <div>
+            <label className='block ml-1'>Product Price</label>
+            <input 
+            className='bg-gray-300 w-full px-4 py-2 border outline-blue-500 rounded-md'
+            type='text'
+            value={payLoad.price}
+            onChange={(e) => setPayLoad({...payLoad, price: e.target.value})} 
+            required
+            />
+        </div>
+
+    <div className='flex justify-end'>
+        <button className='cursor-pointer hover:bg-white hover:text-black bg-blue-400 text-white px-8 py-2 rounded-md'>Add</button>
+    </div>
+
     </form>
   );
 };
