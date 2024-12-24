@@ -13,7 +13,7 @@ const Banner = () => {
             Acer Aspire Nitro
           </h2>
           <a
-            className="inline-block mt-6 hover:text-accent text-topHeadingSecondary text-green-500 font-medium transition-all duration-300"
+            className="inline-block mt-6 hover:text-accent text-topHeadingSecondary text-green-400 font-medium transition-all duration-300"
             href="#"
           >
             Shop Now

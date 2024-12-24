@@ -1,18 +1,18 @@
 const Hero = () => {
   return (
-    <div className="bg-[#E3EDF6] mt-4">
+    <div className="bg-gradient-to-br from-blue-500 to-purple-600 mt-4">
       <div className="container grid md:grid-cols-2 py-1">
         <div className="flex items-center">
           <div className="max-w-[450px] space-y-4">
-            <p className="text-topHeadingSecondary">
-              Starting at <span className="font-bold">$999.00</span>
+            <p className="text-topHeadingSecondary text-white">
+              Starting at <span className="font-bold">$799.00</span>
             </p>
 
-            <h1 className="text-topHeadingPrimary font-bold text-4xl md:text-5xl">
+            <h1 className="text-topHeadingPrimary text-white font-bold text-4xl md:text-5xl">
               The Best Note Book Collection 2024
             </h1>
 
-            <h3 className="text-2xl font-['Oregano',cursive]">
+            <h3 className="text-2xl text-white font-['Oregano',cursive]">
               Exclusive offer <span className="text-red-600">-10%</span> off
               this week
             </h3>

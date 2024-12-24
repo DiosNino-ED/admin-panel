@@ -44,10 +44,10 @@ const Sidebar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="bg-white w-[300px] min-h-screen p-4 shrink-0">
+    <div className="bg-gradient-to-br from-blue-500 to-purple-600 w-[300px] min-h-screen p-4 shrink-0">
       <div className="flex items-center gap-4">
         <img className="size-12 rounded-lg" src="/logo.jpg" alt="logo" />
-        <h2 className="text-[20px] font-semibold">DJawaComputer</h2>
+        <h2 className="text-[25px] text-white font-sans">DJawaComputer</h2>
       </div>
 
       <ul className="space-y-4 mt-6">
@@ -55,7 +55,7 @@ const Sidebar = () => {
           <Link
             key={menu.title}
             href={menu.href}
-            className={`flex gap-2 items-center p-4 rounded-lg cursor-pointer hover:bg-blue-400 hover:text-white ${
+            className={`flex gap-2 items-center p-4 rounded-lg cursor-pointer hover:bg-blue-400 hover:text-white transition-all duration-300 ${
               pathName === menu.href ? "bg-blue-400 text-white" : "bg-gray-200"
             }`}
           >
