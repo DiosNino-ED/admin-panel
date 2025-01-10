@@ -1,6 +1,6 @@
 import { signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";
-import { FaLaptop } from "react-icons/fa"; // Import ikon untuk logo
+import { FaLaptop } from "react-icons/fa";
 
 const Login = () => {
   return (
